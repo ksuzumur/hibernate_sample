@@ -12,7 +12,8 @@
         
 <!--         <property name="hibernate.hbm2ddl.auto">create-drop</property>
  -->
-<!--   <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+<!--  Example for Oracle DB
+  <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
   <property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>
   <property name="hibernate.connection.username">scott</property>
   <property name="hibernate.connection.password">tigger</property>
@@ -24,11 +25,11 @@
         <property name="hibernate.c3p0.max_statements">50</property>
         <property name="hibernate.c3p0.idle_test_period">3000</property>
 
-        <!-- SQL to stdout logging -->
+        <!-- SQL to stdout logging 
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
         <property name="use_sql_comments">true</property>
-        <!--   -->
+           -->
 
         <mapping resource="hello/Message.hbm.xml"/>
 

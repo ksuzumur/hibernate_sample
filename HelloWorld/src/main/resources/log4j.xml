@@ -9,9 +9,14 @@
       <param name="ConversionPattern" value="%d %5p %c{1} - %m%n" />
     </layout>
   </appender>
-  <logger name="org.hibernate">
-    <level value="debug" />
+  <!--  
+  <logger name="org.hibernate.SQL">
+    <level value="TRACE" />
   </logger>
+  <logger name="org.hibernate.type">
+    <level value="TRACE" />
+  </logger>
+  -->
   <logger name="org.hibernate.cache">
     <level value="debug" />
   </logger>
@@ -21,6 +26,7 @@
   <logger name="org.hibernate.Session.evict">
     <level value="debug" />
   </logger>
+
   <root>
     <level value="info" />
     <appender-ref ref="stdout" />

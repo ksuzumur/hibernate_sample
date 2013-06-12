@@ -10,18 +10,17 @@ public class HelloWorldTest {
 
     @Before
     public void startDB() {
-        Server.main(new String[]{});
-        
+        Server.main(new String[] {});
     }
+
     @After
-    public void stopDB(){
-        
+    public void stopDB() {
+        //TODO shutdown HSQLDB method
     }
+
     @Test
-    public void main() {
+    public void runHibernateTest() {
         HelloWorld helloWorld = new HelloWorld();
-        helloWorld.main(new String[]{});
-        
-//        throw new RuntimeException("Test not implemented");
+        helloWorld.runHibernate();
     }
 }
