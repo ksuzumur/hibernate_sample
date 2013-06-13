@@ -2,4 +2,4 @@
 !.gitignore
 target/
 test.log
-test.properties 
+test.properties
