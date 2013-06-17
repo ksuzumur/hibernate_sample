@@ -7,14 +7,15 @@ import org.junit.Test;
 
 public class HelloWorldTest {
 
-    @Before
+/*    @Before
     public void startDB() {
         Server.main(new String[] {});
-    }
+    }*/
 
     @After
     public void stopDB() {
-        //TODO shutdown HSQLDB method
+//TODO stopdatabase
+
     }
 
     @Test

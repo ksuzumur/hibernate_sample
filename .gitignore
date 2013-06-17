@@ -3,3 +3,5 @@
 target/
 test.log
 test.properties
+sample_db.log
+sample_db.properties

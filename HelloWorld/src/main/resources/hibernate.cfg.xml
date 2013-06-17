@@ -6,7 +6,8 @@
     <session-factory>
 
         <property name="hibernate.connection.driver_class">org.hsqldb.jdbcDriver</property>
-        <property name="hibernate.connection.url">jdbc:hsqldb:hsql://localhost</property>
+<!--         <property name="hibernate.connection.url">jdbc:hsqldb:hsql://localhost</property>
+ -->        <property name="hibernate.connection.url">jdbc:hsqldb:file:sample_db;shutdown=false</property>
         <property name="hibernate.connection.username">sa</property>
         <property name="dialect">org.hibernate.dialect.HSQLDialect</property>
         
